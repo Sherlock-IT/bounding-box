@@ -70,8 +70,8 @@ If `label` is specified and `color` is not, then a color depending
 on the `label` is randomly chosen.
 If neither `color` and `label` is specified then the bounding box
 color is defaulted to `green`.
-- `thickness`: A integer that determines the thickness of the bounding box in pixels. The default value is 2
-- `font_size`: A integer that determines the font size of the label in pixels. The default value is 15
+- `thickness`: A integer that determines the thickness of the bounding box in pixels. The default value is 2.
+- `font_size`: A integer that determines the font size of the label in pixels. The default value is 15.
 
 ## Examples
 The script to plot exemples of this **README** is available
