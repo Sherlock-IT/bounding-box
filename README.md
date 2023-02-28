@@ -48,7 +48,7 @@ from bounding_box import bounding_box as bb
 
 Then, just add the bounding box on an image.
  ```python
-bb.add(image, left, top, right, bottom, label, color)
+bb.add(image, left, top, right, bottom, label, color, font_size, thickness)
 ```
 
 This method takes 5 mandatory parameters:
@@ -58,8 +58,6 @@ channels in **BGR** order (same as **openCV** format).
 - `top`: A integer representing the top side of the bounding box.
 - `right`: A integer representing the right side of the bounding box.
 - `bottom`: A integer representing the bottom side of the bounding box.
-- `thickness`: A integer that determines the thickness of the bounding box in pixels. The default value is 2
-- `font_size`: A integer that determines the font size of the label in pixels. The default value is 15
 
 This method takes also 4 optional parameters:
 - `label`: A string representing the label of the bounding box.
@@ -72,6 +70,8 @@ If `label` is specified and `color` is not, then a color depending
 on the `label` is randomly chosen.
 If neither `color` and `label` is specified then the bounding box
 color is defaulted to `green`.
+- `thickness`: A integer that determines the thickness of the bounding box in pixels. The default value is 2
+- `font_size`: A integer that determines the font size of the label in pixels. The default value is 15
 
 ## Examples
 The script to plot exemples of this **README** is available
