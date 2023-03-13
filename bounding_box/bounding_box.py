@@ -35,7 +35,7 @@ _COLOR_NAMES = list(_COLOR_NAME_TO_RGB)
 
 _DEFAULT_COLOR_NAME = "green"
 
-_FONT_PATH = _os.path.join(_LOC, "Ubuntu-B.ttf")
+_FONT_PATH = "C:\\Windows\\Fonts\\arial.ttf"
 
 def _rgb_to_bgr(color):
     return list(reversed(color))
